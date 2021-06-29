@@ -9,7 +9,6 @@ interface TreeNode {
 }
 
 function zigzagLevelOrder(root: TreeNode | null): number[][] {
-
   let resultArr: number[][] = [];
   if (!root) {
     return resultArr;
